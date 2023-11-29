@@ -5,8 +5,6 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "shikimori.one",
-        port: "",
-        pathname: "anime-vault-main.vercel.app",
       },
     ],
   },
