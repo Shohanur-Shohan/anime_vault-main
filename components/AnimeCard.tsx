@@ -23,7 +23,7 @@ const variants = {
 };
 
 function AnimeCard({ anime, index }: Prop) {
-  console.log(anime);
+  // console.log(anime);
 
   return (
     <MotionDiv
@@ -42,7 +42,7 @@ function AnimeCard({ anime, index }: Prop) {
     >
       <div className="relative w-full h-[37vh]">
         <Image
-          src={`https:/shikimori.one${anime?.image?.original}`}
+          src={`https://shikimori.one${anime?.image?.original}`}
           alt={anime.name}
           fill
           className="rounded-xl"
