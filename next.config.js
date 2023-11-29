@@ -3,8 +3,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        // protocol: "https",
-        hostname: "anime-vault-main.vercel.app",
+        protocol: "https",
+        hostname: "shikimori.one",
+        port: "",
+        pathname: "anime-vault-main.vercel.app",
       },
     ],
   },
